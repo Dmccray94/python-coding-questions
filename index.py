@@ -23,11 +23,10 @@ highestNumber(intList)
 ## question 4
 def is_leap_year(leap):
     if leap % 4 == 0: 
-        return True if leap % 100 == 0 
-    return False if leap % 4 == 
-    return False
-    print (leap_year (1908))
-    print (leap_year (2020))
+        return True if leap % 100 
+        return False if leap % 4 
+print (leap(1908))
+print (leap(2020))
 
 # question 5
 
